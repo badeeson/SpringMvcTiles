@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Submission Page</title>
+</head>
+<body>
+    <h1>Submitted Form Data</h1>
+    <h2>Your input was received as:</h2>
+    <p>fname=<span th:text="${person.firstname}"></span>&lname=<span th:text="${person.lastname}"></span></p>
+</body>
+</html>
